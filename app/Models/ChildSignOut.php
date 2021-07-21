@@ -32,7 +32,7 @@ class ChildSignOut extends Model
 
     public function setSignOutTimeAttribute($value)
     {
-        $this->attributes['sign_out_time'] = $value ? Carbon::parse($value)->format('H:m') . 00 : null;
+        $this->attributes['sign_out_time'] = $value ? Carbon::parse($value)->format('H:m') . ':00' : null;
     }
 
 }

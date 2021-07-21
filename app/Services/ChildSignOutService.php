@@ -11,26 +11,21 @@ use App\Models\Register;
 class ChildSignOutService
 {
 
-    public function createSignOutEntry(Register $register, Child $child)
+    public function createSignOutEntry($registerId, $childId)
     {
-        $register_id    = $register->id;
-        $child_id       = $child->id;
 
         $entry = ChildSignOut::query()
-            ->where('child_id', $child_id)
-            ->where('register_id', $register_id)
+            ->where('child_id', $childId)
+            ->where('register_id', $registerId)
             ->first();
 
-        if($entry->exists()) {
-            return;
-        }
-        else {
-
-            ChildSignOut::create([
-                'child_id'      =>  $child_id,
-                'register_id'   =>  $register_id,
+        if(!$entry->exists()) {
+            return ChildSignOut::create([
+                'child_id'      =>  $childId,
+                'register_id'   =>  $registerId,
             ]);
         }
+        return false;
     }
 
     public function initialStaffSignout($data, $register_id, $child_id)

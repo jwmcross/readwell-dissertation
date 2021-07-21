@@ -84,7 +84,7 @@ class Test extends Component
             $record->updateExistingPivot($childId, ['in_time'=> now()]);
 
             try {
-                (new ChildSignOutService)->createSignOutEntry($register, $childId);
+                $created = (new ChildSignOutService)->createSignOutEntry($register->id, $childId);
             } catch(\Exception $exception) {
                 log($exception->getMessage());
             }

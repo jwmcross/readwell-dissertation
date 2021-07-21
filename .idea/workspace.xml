@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b040a49f-d676-48a9-a7ed-131c6e399ef9" name="Default Changelist" comment="" />
+    <list default="true" id="b040a49f-d676-48a9-a7ed-131c6e399ef9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docker-compose.prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Register/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Register/Test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ChildSignOut.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ChildSignOut.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/ChildSignOutService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/ChildSignOutService.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -146,7 +155,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/register" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -192,7 +201,8 @@
       <workItem from="1626483123755" duration="2777000" />
       <workItem from="1626562649723" duration="10603000" />
       <workItem from="1626644542155" duration="19928000" />
-      <workItem from="1626725828249" duration="19899000" />
+      <workItem from="1626725828249" duration="20618000" />
+      <workItem from="1626762183684" duration="4070000" />
     </task>
     <servers />
   </component>
