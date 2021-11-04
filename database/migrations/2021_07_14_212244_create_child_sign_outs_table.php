@@ -19,7 +19,7 @@ class CreateChildSignOutsTable extends Migration
             $table->foreignId('register_id')->nullable()->constrained();
             $table->foreignId('carer_id')->nullable()->constrained();
             $table->time('sign_out_time')->nullable();
-            $table->string('staff_initial')->nullable();
+            $table->webstring('staff_initial')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

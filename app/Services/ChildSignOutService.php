@@ -19,7 +19,8 @@ class ChildSignOutService
             ->where('register_id', $registerId)
             ->first();
 
-        if(!$entry->exists()) {
+
+        if(is_null($entry)) {
             return ChildSignOut::create([
                 'child_id'      =>  $childId,
                 'register_id'   =>  $registerId,

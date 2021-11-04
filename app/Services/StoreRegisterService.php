@@ -21,7 +21,7 @@ class StoreRegisterService
 
     public function storeWeeklyRegister($startDate, $ageGroup, $childrenBookings)
     {
-        //dd($childrenBookings);
+
         $weekstart = Carbon::parse($startDate);
         $startDay = $weekstart->dayOfWeek;
         $days = [
@@ -34,12 +34,12 @@ class StoreRegisterService
 
         $date = Carbon::createFromFormat('D d F, Y', $startDate);
 
+        //Create a Register for each day of thr week after the starting day.
         $register = [];
         foreach($days as $day => $value){
             if($startDay <= $value ) {
-                //$register[$day] = $date->format('d M Y');
                 $register[$day] = Register::create([
-                    'title'         => 'Register ' . $date->format('l d F') . ' ' . Register::AGE_GROUP_SELECT[$ageGroup],
+                    'title'         => '' . $date->format('l d F') . ' ' . Register::AGE_GROUP_SELECT[$ageGroup],
                     'register_date' => $date,
                     'age_group'     => $ageGroup
                 ]);
@@ -50,7 +50,6 @@ class StoreRegisterService
         }
 
         // session = 1 => Morning, 2 => Afternoon, 3 => Full Day
-
         foreach($childrenBookings as $key => $sessions) {
             list(, $child_id) = explode('_', $key);
 
@@ -78,11 +77,6 @@ class StoreRegisterService
                 }
             }
         }
-
-
-
-
-
     }
 
 }

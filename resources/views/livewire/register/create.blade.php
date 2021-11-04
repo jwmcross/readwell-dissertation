@@ -170,8 +170,6 @@
                             </td>
                             <td>
                                 <div class="form-group {{ $errors->has('booking.monday') ? 'invalid' : '' }}">
-
-                                    {{--                                <label class="form-label  text-center text-lg">{{ trans('cruds.booking.fields.monday') }}</label>--}}
                                     @if(\Carbon\Carbon::MONDAY >= $startDay)
                                         <select class="form-control" name="child_{{ $child->id }}[]">
                                             <option value="null" {{ !isset($child->booking->monday) ? 'selected' : '' }} >{{ trans('global.pleaseSelect') }}...</option>
@@ -217,11 +215,9 @@
                             </td>
                             <td>
                                 <div class="form-group {{ $errors->has('booking.monday') ? 'invalid' : '' }}">
-
-                                    {{--                                <label class="form-label  text-center text-lg">{{ trans('cruds.booking.fields.wednesday') }}</label>--}}
                                     @if(\Carbon\Carbon::WEDNESDAY >= $startDay)
                                         <select class="form-control" name="child_{{ $child->id }}[]">
-                                            <option value="null" {{ !isset($child->booking->wednesday) ? 'selected' : '' }} >{{ trans('global.pleaseSelect') }}...</option>
+                                            <option value="null" {{ !isset($child->booking->wednesday) ? 'selected' : '' }} >{{ __('NO BOOKING') }}...</option>
                                             @foreach($this->listsForFields['booking_groups'] as $key => $value)
                                                 <option value="wednesday_{{ $key }}"
                                                     {{ isset($child->booking->wednesday) && $child->booking->wednesday == $key ? 'selected' : '' }}

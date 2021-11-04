@@ -4,12 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b040a49f-d676-48a9-a7ed-131c6e399ef9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.prod.yml" afterDir="false" />
+    <list default="true" id="b040a49f-d676-48a9-a7ed-131c6e399ef9" name="Default Changelist" comment="Minor Env changes. Added production Docker-composer file">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c2e14ed-77ec-4ff6-a86d-52f76fb63e53.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2c2e14ed-77ec-4ff6-a86d-52f76fb63e53.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Register/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Register/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ChildSignOut.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ChildSignOut.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Register/AttendanceRegister.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Register/AttendanceRegister.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Register/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/AuthGates.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/AuthGates.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Services/ChildSignOutService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/ChildSignOutService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/StoreRegisterService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/StoreRegisterService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_14_212244_create_child_sign_outs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_07_14_212244_create_child_sign_outs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-readwell-470066e633594952.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/register/attendance-register-test.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/register/attendance-register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/register/attendance-register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/register/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/register/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/register/test.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/register/test.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervisord.log" beforeDir="false" afterPath="$PROJECT_DIR$/supervisord.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervisord.pid" beforeDir="false" afterPath="$PROJECT_DIR$/supervisord.pid" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,22 +173,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leoni\dev\diss" />
+      <recent name="C:\Users\leoni\dev\diss\resources\views\admin\register" />
+      <recent name="C:\Users\leoni\dev\diss\app\Http\Livewire\Register" />
+      <recent name="C:\Users\leoni\dev\diss\resources\views\livewire\register" />
+      <recent name="C:\Users\leoni\dev\diss\database\factories" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leoni\dev\diss\app\Http\Controllers\Api\v1" />
       <recent name="C:\Users\leoni\dev\diss\resources\views\livewire\register\partials" />
       <recent name="C:\Users\leoni\dev\diss\app\Http\Livewire\Register" />
       <recent name="C:\Users\leoni\dev\diss\app" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leoni\dev\diss\resources\views\admin\register" />
-      <recent name="C:\Users\leoni\dev\diss\app\Http\Livewire\Register" />
-      <recent name="C:\Users\leoni\dev\diss\resources\views\livewire\register" />
-      <recent name="C:\Users\leoni\dev\diss\database\factories" />
-      <recent name="C:\Users\leoni\dev\diss\app\View\Components" />
     </key>
   </component>
   <component name="RunManager">
@@ -202,75 +218,54 @@
       <workItem from="1626562649723" duration="10603000" />
       <workItem from="1626644542155" duration="19928000" />
       <workItem from="1626725828249" duration="20618000" />
-      <workItem from="1626762183684" duration="4070000" />
+      <workItem from="1626762183684" duration="6119000" />
+      <workItem from="1626835004941" duration="11351000" />
+      <workItem from="1626855614315" duration="1766000" />
+      <workItem from="1627284887786" duration="31000" />
+      <workItem from="1628013336662" duration="1566000" />
+      <workItem from="1628310300045" duration="18957000" />
+      <workItem from="1628948878862" duration="94000" />
+      <workItem from="1633294961202" duration="1208000" />
+      <workItem from="1634143157870" duration="633000" />
+      <workItem from="1634750718346" duration="2000" />
+      <workItem from="1635976110511" duration="152000" />
+      <workItem from="1635976383972" duration="6000" />
+      <workItem from="1635976402224" duration="7000" />
+      <workItem from="1636049089497" duration="903000" />
     </task>
+    <task id="LOCAL-00001" summary="Minor Env changes. Added production Docker-composer file">
+      <created>1626827969976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626827969976</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Minor Env changes. Added production Docker-composer file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor Env changes. Added production Docker-composer file" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1395" y="318" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625206805547">
+    <state x="943" y="387" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1636049943678">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="1395" y="318" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1625206805547" />
-    <state x="487" y="568" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626748422242">
+    <state x="943" y="387" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1636049943678" />
+    <state x="1005" y="340" key="FileChooserDialogImpl" timestamp="1635976372385">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="487" y="568" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1626748422242" />
-    <state x="3352" y="307" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1626274533337">
-      <screen x="2560" y="174" width="1920" height="1050" />
-    </state>
-    <state x="3352" y="307" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1410/2560.174.1920.1050@2560.174.1920.1050" timestamp="1626274533337" />
-    <state x="943" y="398" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1626298444302">
+    <state x="1005" y="340" key="FileChooserDialogImpl/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1635976372385" />
+    <state x="655" y="261" key="SettingsEditor" timestamp="1628505376448">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="943" y="398" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1626298444302" />
-    <state x="1093" y="535" key="Create Json Resource" timestamp="1626048592860">
+    <state x="655" y="261" key="SettingsEditor/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1628505376448" />
+    <state x="859" y="310" width="840" height="625" key="search.everywhere.popup" timestamp="1636049493849">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="1093" y="535" key="Create Json Resource/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1626048592860" />
-    <state width="2503" height="886" key="GridCell.Tab.0.bottom" timestamp="1626051596197">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="2503" height="886" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1626051596197" />
-    <state width="2503" height="886" key="GridCell.Tab.0.center" timestamp="1626051596197">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="2503" height="886" key="GridCell.Tab.0.center/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1626051596197" />
-    <state width="2503" height="886" key="GridCell.Tab.0.left" timestamp="1626051596197">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="2503" height="886" key="GridCell.Tab.0.left/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1626051596197" />
-    <state width="2503" height="886" key="GridCell.Tab.0.right" timestamp="1626051596197">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state width="2503" height="886" key="GridCell.Tab.0.right/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1626051596197" />
-    <state x="756" y="372" key="IDE.errors.dialog" timestamp="1626724513323">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="756" y="372" key="IDE.errors.dialog/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1626724513323" />
-    <state x="1026" y="366" key="NewPhpClassDialog" timestamp="1626296873462">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="1026" y="366" key="NewPhpClassDialog/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1626296873462" />
-    <state x="3330" y="447" key="NewPhpClassDialog/0.0.2560.1410/2560.174.1920.1050@2560.174.1920.1050" timestamp="1626273371079" />
-    <state x="1067" y="608" key="NewPhpFileDialog" timestamp="1626284800932">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="1067" y="608" key="NewPhpFileDialog/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1626284800932" />
-    <state x="1154" y="549" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1625206366801">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="1154" y="549" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1625206366801" />
-    <state x="1083" y="265" width="658" height="677" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1626650703046">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="1083" y="265" width="658" height="677" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1626650703046" />
-    <state x="859" y="310" width="840" height="625" key="search.everywhere.popup" timestamp="1626750499338">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="859" y="310" width="840" height="625" key="search.everywhere.popup/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1626750499338" />
-    <state x="3204" y="405" width="840" height="622" key="search.everywhere.popup/0.0.2560.1410/2560.174.1920.1050@2560.174.1920.1050" timestamp="1626273670500" />
+    <state x="859" y="310" width="840" height="625" key="search.everywhere.popup/0.0.2560.1410/2560.174.1920.1050@0.0.2560.1410" timestamp="1636049493849" />
   </component>
 </project>

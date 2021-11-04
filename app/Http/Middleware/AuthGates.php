@@ -15,10 +15,6 @@ class AuthGates
 
         if ($user) {
 
-//            if($user->roles->whereIn('title', 'Parent')exists()){
-//                abort(403);
-//            }
-
             $roles            = Role::with('permissions')->get();
             $permissionsArray = [];
 

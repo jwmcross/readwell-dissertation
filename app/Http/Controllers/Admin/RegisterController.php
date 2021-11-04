@@ -37,16 +37,17 @@ class RegisterController extends Controller
     {
         abort_if(Gate::denies('register_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
+        //Extract all the children data & Bookings
         $childrenBookings = array_filter($request->all(), function($key) {
            return strpos($key, 'child_') === 0;
         }, ARRAY_FILTER_USE_KEY);
-        //dd($request->register_date);
+
         $startDate = $request->register_date;
         $ageGroup = $request->age_group;
 
         $this->registerService->storeWeeklyRegister($startDate, $ageGroup, $childrenBookings);
 
-        return 'success';
+        return redirect()->route('admin.registers.index');
 
     }
 

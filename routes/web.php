@@ -45,9 +45,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth']], 
 
     // Register
     Route::get('registers/today', [RegisterController::class, 'todaysRegister'])->name('register.today');
-    Route::get('registers/test', function() {
-        return view('admin.register.attendance-register-test');
-    });
     Route::get('registers/{register}/report', [RegisterController::class, 'report'])->name('register.report');
     //Route::get('registers/{year}/{month}/{day}', [RegisterController::class, 'todaysRegister'])->name('register.today');
     Route::resource('registers', RegisterController::class, ['except' => ['update', 'destroy']]);
